@@ -5,7 +5,8 @@ Program: Functions
 Algorithm Steps:
     Define all functions with 2 numbers
     Prompt the user to enter 2 numbers
-    
+    Print test functions
+    Print answers with user input
 '''
 
 import math
@@ -20,7 +21,6 @@ def rem_two(a,b):
     return a%b
 def sub_two(a,b):
     return a-b
-
 
 def sqrt_n1(a,b):
     if a>0:
