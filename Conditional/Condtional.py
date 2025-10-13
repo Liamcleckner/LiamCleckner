@@ -8,12 +8,13 @@ Algorithm Steps:
 
 import math
 
+
 def add_five(a,b,c,d,e):
     return a+b+c+d+e
 def mult_five(a,b,c,d,e):
     return a*b*c*d*e
 def avg_five(a,b,c,d,e):
-    return sum/5
+    return (a+b+c+d+e)/5
 def max_five(a,b,c,d,e):
     big = a
     if b > big:
@@ -56,5 +57,24 @@ def main():
     print(average)
     print(largest)
     print(smallest)
+   
+
+#Test Functions
+
+def test_func():
+    tsum_1 = add_five(.6, .7, .8, .4, .5)
+    tproduct_1 = mult_five(.6, .7, .8, .4, .5)
+    tquotient_1 = avg_five(.6, .7, .8, .4, .5)
+    tdifference_1 = max_five(.6, .7, .8, .4, .5)
+    tremainder_1 = min_five(.6, .7, .8, .4, .5)
+
+    tsum_1 = add_five(-8, -4, -13, -18, -3)
+    tproduct_1 = mult_five(-8, -4, -13, -18, -3)
+    tquotient_1 = avg_five(-8, -4, -13, -18, -3)
+    tdifference_1 = max_five(-8, -4, -13, -18, -3)
+    tremainder_1 = min_five(-8, -4, -13, -18, -3)
+
+
+test_func()
 
 main()
