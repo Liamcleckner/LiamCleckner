@@ -24,19 +24,19 @@ ________________________________________________________________________________
 | --- | --- |
 | Name: | Liam Cleckner |
 | Description: | Triangle perimeter and area calculator |
-| Due Date: | FIXME |
-| Status: | FIXME (In Progress, Finished, Not Started, etc...) |
-| Location: | <provide github link to assignment> |
+| Due Date: | while ago |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/Assignments/Stdio/Math/Triangle/Triangle.py |
 | Notes: | In Progress|
 
 ## Homework #2 R2
 | Name | Value |
 | --- | --- |
 | Name: | Liam Cleckner |
-| Description: | idk |
+| Description: | Kattis problem in github |
 | Due Date: | while ago |
-| Status: | not started |
-| Location: | <provide github link to assignment> |
+| Status: | Finished |
+| Location: |https://github.com/Liamcleckner/LiamCleckner/tree/main/assignments/Assignments/Stdio/Math/r2 |
 | Notes: | In Progress|
 
 
