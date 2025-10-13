@@ -28,6 +28,27 @@ ________________________________________________________________________________
 | Status: | FIXME (In Progress, Finished, Not Started, etc...) |
 | Location: | <provide github link to assignment> |
 | Notes: | In Progress|
+
+## Homework #2 R2
+| Name | Value |
+| --- | --- |
+| Name: | Liam Cleckner |
+| Description: | idk |
+| Due Date: | while ago |
+| Status: | not started |
+| Location: | <provide github link to assignment> |
+| Notes: | In Progress|
+
+
+## Homework #4 Conditionals
+| Name | Value |
+| --- | --- |
+| Name: | Liam Cleckner |
+| Description: | Various calculations of 5 numbers selected by the user |
+| Due Date: | 10/13/25 |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Conditional/Condtional.py |
+| Notes: | In Progress|
 _______________________________________________________________________________________________________________
 # Labs
 ## Lab #1
