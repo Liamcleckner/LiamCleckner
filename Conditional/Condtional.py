@@ -52,12 +52,12 @@ def main():
     largest = max_five(n1,n2,n3,n4,n5)
     smallest = min_five(n1,n2,n3,n4,n5)
 
-    print(sum)
-    print(product)
-    print(average)
-    print(largest)
-    print(smallest)
-   
+    print(f"Sum of {n1}, {n2}, {n3}, {n4}, and {n5} = {sum}")
+    print(f"Product of {n1}, {n2}, {n3}, {n4}, and {n5} = {product}")
+    print(f"Average of {n1}, {n2}, {n3}, {n4}, and {n5} = {average}")
+    print(f"Largest of {n1}, {n2}, {n3}, {n4}, and {n5} = {largest}")
+    print(f"Smallest of {n1}, {n2}, {n3}, {n4}, and {n5} = {smallest}")
+
 
 #Test Functions
 
