@@ -51,12 +51,12 @@ ________________________________________________________________________________
 | Notes: | In Progress|
 _______________________________________________________________________________________________________________
 # Labs
-## Lab #1
+## Lab #3 
 | Name | Value |
 | --- | --- |
-| Name: | FIXME |
-| Description: | FIXME |
+| Name: | Add two numbers |
+| Description: | Adds two numbers inputed by the user |
 | Due Date: | FIXME |
-| Status: | FIXME (In Progress, Finished, Not Started, etc...) |
+| Status: | Finished |
 | Location: | <provide github link to assignment once you've pushed it> |
 | Notes: | FIXME |
