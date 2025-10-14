@@ -85,8 +85,8 @@ ________________________________________________________________________________
 ## Lab #3 
 | Name | Value |
 | --- | --- |
-| Name: | Add two numbers |
-| Description: | Adds two numbers inputed by the user |
+| Name: | Circle |
+| Description: | User inputs a radius and program returns the area and circumference |
 | Due Date: |  |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
