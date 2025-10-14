@@ -51,12 +51,73 @@ ________________________________________________________________________________
 | Notes: | In Progress|
 _______________________________________________________________________________________________________________
 # Labs
+
+## Lab #1 
+| Name | Value |
+| --- | --- |
+| Name: | Ascii |
+| Description: | Prints ascii art |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/tree/main/Labs/stdio%20copy/ascii |
+| Notes: | printed ascii art |
+
+## Lab #2 
+| Name | Value |
+| --- | --- |
+| Name: | Ascii2 |
+| Description: | Prints ascii art |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/tree/main/Labs/stdio%20copy/ascii2 |
+| Notes: | printed ascii art |
+
 ## Lab #3 
 | Name | Value |
 | --- | --- |
 | Name: | Add two numbers |
 | Description: | Adds two numbers inputed by the user |
-| Due Date: | FIXME |
+| Due Date: |  |
 | Status: | Finished |
-| Location: | <provide github link to assignment once you've pushed it> |
-| Notes: | FIXME |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
+| Notes: | added two numbers |
+
+## Lab #3 
+| Name | Value |
+| --- | --- |
+| Name: | Add two numbers |
+| Description: | Adds two numbers inputed by the user |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
+| Notes: | added two numbers |
+
+## Lab #3 
+| Name | Value |
+| --- | --- |
+| Name: | Add two numbers |
+| Description: | Adds two numbers inputed by the user |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
+| Notes: | added two numbers |
+
+## Lab #3 
+| Name | Value |
+| --- | --- |
+| Name: | Add two numbers |
+| Description: | Adds two numbers inputed by the user |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
+| Notes: | added two numbers |
+
+## Lab #3 
+| Name | Value |
+| --- | --- |
+| Name: | Add two numbers |
+| Description: | Adds two numbers inputed by the user |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
+| Notes: | added two numbers |
