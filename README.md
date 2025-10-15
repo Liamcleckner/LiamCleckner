@@ -89,8 +89,8 @@ ________________________________________________________________________________
 | Description: | User enters a number and it is tested whetehr it is even or odd |
 | Due Date: |  |
 | Status: | Finished |
-| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Circle/circle.py |
-| Notes: | calculated circle |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/tree/main/Labs/twostones |
+| Notes: | Got right answers alice and bob |
 
 ## Lab #3 
 | Name | Value |
