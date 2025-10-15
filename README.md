@@ -92,11 +92,11 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/tree/main/Labs/twostones |
 | Notes: | Got right answers alice and bob |
 
-## Lab #3 
+## Lab #5 
 | Name | Value |
 | --- | --- |
-| Name: | Add two numbers |
-| Description: | Adds two numbers inputed by the user |
+| Name: | Conditionals and Functions |
+| Description: | Tests whether a number inputed by the user is even/odd and positive/negative |
 | Due Date: |  |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
