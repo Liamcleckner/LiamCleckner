@@ -82,11 +82,11 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
 | Notes: | added two numbers |
 
-## Lab #3 
+## Lab #4 
 | Name | Value |
 | --- | --- |
-| Name: | Circle |
-| Description: | User inputs a radius and program returns the area and circumference |
+| Name: | Two Stones |
+| Description: | User enters a number and it is tested whetehr it is even or odd |
 | Due Date: |  |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Circle/circle.py |
