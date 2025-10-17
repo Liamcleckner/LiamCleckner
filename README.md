@@ -102,12 +102,3 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Conditionals/conditionals.py |
 | Notes: | Tested the numbers |
 
-## Lab #3 
-| Name | Value |
-| --- | --- |
-| Name: | Add two numbers |
-| Description: | Adds two numbers inputed by the user |
-| Due Date: |  |
-| Status: | Finished |
-| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Math/addtwonumbers/addtwonumbers.py |
-| Notes: | added two numbers |
