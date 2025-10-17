@@ -16,20 +16,34 @@ Algrotihm Steps:
 
 def pig_translate(word: str) -> str:
     vowels = 'aeiouy'
+    ans = ''
+    
     for vowel in vowels:
         if word[0] in vowels:
-            
+            ans = word + 'yay'
+            return ans
+    
+    index = 0
+    
+    while(word[index] not in vowels):
+        index += 1
+    ans = word[index::] + word[0:index-1] + 'ay'
+    return ans
+
 
 import sys
 
 print("Enter a phrase to convert: ", file=sys.stderr)
 
-line = input()
 
-words = line.split()
+while(True):
+    line = input()
 
-for word in words:
-    converted = pig_translate(word)
-    ans = ans + converted + ""
+    words = line.split()
+    ans = ''
+    for word in words:
+        converted = pig_translate(word)
+        ans = ans + converted + ''
 
-print(words)
+    print(words)
+    print(ans)
