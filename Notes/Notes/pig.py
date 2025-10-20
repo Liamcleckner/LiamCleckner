@@ -20,14 +20,14 @@ def pig_translate(word: str) -> str:
     
     for vowel in vowels:
         if word[0] in vowels:
-            ans = word + 'yay'
+            ans = word + 'yay '
             return ans
     
     index = 0
     
     while(word[index] not in vowels):
         index += 1
-    ans = word[index::] + word[0:index-1] + 'ay'
+    ans = word[index::] + word[0:index-1] + 'ay '
     return ans
 
 
