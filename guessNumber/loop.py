@@ -16,15 +16,16 @@ def main():
     total_games = 0
     wins = 0
     losses = 0
-    correct = False
+    
 
     while(True):
         
         rand_num = random.randint(1,20)
         print("You get 6 tries to guess the number.")
         tries = 0
-
-        while tries < 6:
+        correct = False
+        
+        while tries < 6 and correct == False:
             guess = int(input("Take a guess:"))
 
             tries += 1
@@ -39,10 +40,10 @@ def main():
                 wins += 1
                 correct = True
             
-        if not correct:
-            print("You lost.")
-            print(f"The number was {rand_num}")
-            losses += 1
+            if not correct and tries >= 6:
+                print("You lost.")
+                print(f"The number was {rand_num}")
+                losses += 1
             
         total_games += 1
         again = input("Play again? [y/n]")
@@ -53,3 +54,5 @@ def main():
     print(f"Total games = {total_games}")
     print(f"Total losses = {losses}")
     print(f"Total wins = {wins}")
+
+main()
