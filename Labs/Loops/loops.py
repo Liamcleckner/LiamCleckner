@@ -34,7 +34,7 @@ def printFlippedTriangle(height):
     """
 
     i = height
-    while i >= 0:
+    while i > 0:
         print('*  '*i)
         i -= 1
     print()  # print an empty line
@@ -57,7 +57,7 @@ def printFlippedTriangle(height):
 
 def printSquare(height):
     i = height
-    width = height
+    width = height-1
     while width >= 0:
         print('*  '*i)
         width -= 1
@@ -75,12 +75,17 @@ def clearScreen():
 def main():
     # FIXME7 #fixed# add a loop to make the program to continue to run until the user wants to quit
     while(True):
+        clearScreen()
+
         print('Program prints geometric shapes of given height with *')
         height = int(input('Please enter the height of the shape: '))
+
         # call printTriangle function passing user entered height
+
         printTriangle(height)
         printFlippedTriangle(height)
         printSquare(height)
+        
         again = input("again? [y/n]")
 
         if again.lower() != 'y':
