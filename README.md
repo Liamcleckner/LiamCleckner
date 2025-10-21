@@ -49,6 +49,16 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Conditional/Condtional.py |
 | Notes: | In Progress|
+
+## Homework #5 Loops
+| Name | Value |
+| --- | --- |
+| Name: | Liam Cleckner |
+| Description: | Number guessing game that loops |
+| Due Date: | 10/20/25 |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/guessNumber/loop.py |
+| Notes: | Number guess |
 _______________________________________________________________________________________________________________
 # Labs
 
