@@ -112,3 +112,12 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Conditionals/conditionals.py |
 | Notes: | Tested the numbers |
 
+## Lab #6 
+| Name | Value |
+| --- | --- |
+| Name: | Loops |
+| Description: | Loop a thing that makes squares and triangles when given a height |
+| Due Date: 10/20/25 |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Loops/loops.py |
+| Notes: | Looped shapes |
