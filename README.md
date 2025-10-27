@@ -46,7 +46,7 @@ ________________________________________________________________________________
 | Description: | Math involving 2 numbers |
 | Due Date: |  |
 | Status: | Finished |
-| Location: |https://github.com/Liamcleckner/LiamCleckner/blob/main/functions/functions.py|
+| Location: |https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/functions/functions.py|
 | Notes: | In Progress|
 
 
@@ -57,7 +57,7 @@ ________________________________________________________________________________
 | Description: | Various calculations of 5 numbers selected by the user |
 | Due Date: | 10/13/25 |
 | Status: | Finished |
-| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Conditional/Condtional.py |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/Conditional/Condtional.py |
 | Notes: | In Progress|
 
 ## Homework #5 Loops
@@ -67,7 +67,7 @@ ________________________________________________________________________________
 | Description: | Number guessing game that loops |
 | Due Date: | 10/20/25 |
 | Status: | Finished |
-| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/guessNumber/loop.py |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/guessNumber/loop.py |
 | Notes: | Number guess |
 _______________________________________________________________________________________________________________
 # Labs
