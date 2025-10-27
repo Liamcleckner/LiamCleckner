@@ -24,7 +24,7 @@ ________________________________________________________________________________
 | --- | --- |
 | Name: | Liam Cleckner |
 | Description: | Triangle perimeter and area calculator |
-| Due Date: | while ago |
+| Due Date: | |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/Assignments/Stdio/Math/Triangle/Triangle.py |
 | Notes: | In Progress|
@@ -34,9 +34,19 @@ ________________________________________________________________________________
 | --- | --- |
 | Name: | Liam Cleckner |
 | Description: | Kattis problem in github |
-| Due Date: | while ago |
+| Due Date: |  |
 | Status: | Finished |
 | Location: |https://github.com/Liamcleckner/LiamCleckner/tree/main/assignments/Assignments/Stdio/Math/r2 |
+| Notes: | In Progress|
+
+## Homework #3 Functions
+| Name | Value |
+| --- | --- |
+| Name: | Liam Cleckner |
+| Description: | Math involving 2 numbers |
+| Due Date: |  |
+| Status: | Finished |
+| Location: |https://github.com/Liamcleckner/LiamCleckner/blob/main/functions/functions.py|
 | Notes: | In Progress|
 
 
@@ -95,6 +105,36 @@ ________________________________________________________________________________
 ## Lab #4 
 | Name | Value |
 | --- | --- |
+| Name: | Circle |
+| Description: | Calculates a circle when given a radius |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Circle/circle.py |
+| Notes: | calced circle |
+
+## Lab #5 
+| Name | Value |
+| --- | --- |
+| Name: | Last problem |
+| Description: |  |
+| Due Date: |  |
+| Status: | NOT Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/lastproblem/main.py |
+| Notes: |  |
+
+## Lab #6 
+| Name | Value |
+| --- | --- |
+| Name: | Bijele |
+| Description: |  |
+| Due Date: |  |
+| Status: | NOT Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Bijele/bijele.py |
+| Notes: |  |
+
+## Lab #7 
+| Name | Value |
+| --- | --- |
 | Name: | Two Stones |
 | Description: | User enters a number and it is tested whetehr it is even or odd |
 | Due Date: |  |
@@ -102,7 +142,7 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/tree/main/Labs/twostones |
 | Notes: | Got right answers alice and bob |
 
-## Lab #5 
+## Lab #8 
 | Name | Value |
 | --- | --- |
 | Name: | Conditionals and Functions |
@@ -112,7 +152,7 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Conditionals/conditionals.py |
 | Notes: | Tested the numbers |
 
-## Lab #6 
+## Lab #9 
 | Name | Value |
 | --- | --- |
 | Name: | Loops |
