@@ -1,7 +1,7 @@
 '''
 Programmer: Liam Cleckner
 Class: CS110
-Program: Kattis problem - 
+Program: Kattis problem - https://open.kattis.com/problems/hardwoodspecies
 Algorithm:
     input lines "trees" into a list
         use for line in sys.stdin:
