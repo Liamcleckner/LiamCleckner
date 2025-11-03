@@ -16,6 +16,7 @@ print(species[0].strip())
 
 print(species)
 
+
 species = []
 for line in sys.stdin:
     species.append(line)
