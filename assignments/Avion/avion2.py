@@ -1,5 +1,23 @@
+'''
+Programmer: Liam Cleckner
+Date: 11/1/25
+Program: Avion - https://open.kattis.com/problems/avion
+Algorithm Steps:
+    1. Get 5 lines of input from the user
+    2. Check each line if it says FBI
+    3. If it does, know that position
+    4. Print these positions separated by spaces
+'''
+
 def find_blimp(codes):
-    return [i + 1 for i, code in enumerate(codes) if "FBI" in code]
+    result = []
+    index = 1
+    for code in codes:
+        if "FBI" in code:
+            result.append(index)
+        index += 1
+    return result
+
 
 def test_find():
     assert find_blimp(["N-FBI1", "9A-USKOK", "I-NTERPOL", "G-MI6", "RF-KGB1"]) == [1]
