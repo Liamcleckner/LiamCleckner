@@ -69,6 +69,16 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/guessNumber/loop.py |
 | Notes: | Number guess |
+
+## Homework #6 Avion
+| Name | Value |
+| --- | --- |
+| Name: | Liam Cleckner |
+| Description: | Checks lines of text for "FBI" |
+| Due Date: | |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/Avion/avion.py |
+| Notes: | Found spy |
 _______________________________________________________________________________________________________________
 # Labs
 
