@@ -1,25 +1,32 @@
 '''
-programmer: Liam Cleckner
-date: 11/1/25
+Programmer: Liam Cleckner
+Date: 11/1/25
 Program: Avion - https://open.kattis.com/problems/avion
 Algorithm Steps:
-
+    1. Get 5 lines of input from the user
+    2. Check each line if it says FBI
+    3. If it does, know that position
+    4. Print these positions separated by spaces
 '''
 
 def find_blimp(codes):
-    return [i + 1 for i, code in enumerate("codes") if "FBI" in code]
+    result = []
+    index = 1
+    for code in codes:
+        if "FBI" in code:
+            result.append(index)
+        index += 1
+    return result
 
-def format_output(indices):
-    return " ".join(map(str, indices)) if indices else "HE GOT AWAY!"
 
+def test_find():
+    assert find_blimp(["N-FBI1", "9A-USKOK", "I-NTERPOL", "G-MI6", "RF-KGB1"]) == [1]
+    assert find_blimp(["N321-CIA2", "F3-B12R", "F-BI-12", "OVO-JE-CIA", "KRIJUMCAR1"]) == []
+    assert find_blimp(["47-FBI", "BOND-007", "RF-FBI18", "MARICA-13", "13A-FBILL"]) == [1, 3, 5]
 
-def test_find_cia_blimps():
-    assert find(["N321-CIA", "F3-1BZ", "F-B1-12", "OVO-JE-CIA", "KRIJUMCAR1"]) == [1, 4]
-    assert find(["N-FB11", "9A-USK0R", "I-MTERPOL", "G-MI6", "RF-KGB1"]) == []
-    assert find(["CIA-123", "123-CIA", "NOPE", "CIA", "NOTCIA"]) == [1, 2, 4]
-
+test_find()
 
 if __name__ == "__main__":
     codes = [input().strip() for _ in range(5)]
-    indices = find(codes)
-    print(format_output(indices))
+    result = find_blimp(codes)
+    print(" ".join(map(str, result)) if result else "HE GOT AWAY!")
