@@ -6,6 +6,26 @@ Algorithm Steps:
 
 '''
 
+def falling_apart(piece):
+    piece.sort(reverse=True)
+    alice = 0
+    bob = 0
+
+    for i, value in enumerate(piece):
+        if i % 2 == 0:
+            alice += value
+        else:
+            bob += value
+
+    return alice, bob
+
+n = int(input())
+piece = list(map(int, input().split()))
+assert len(piece) == n
+
+alice, bob = falling_apart(piece)
+print(alice, bob)
+
 '''
 def falling_apart(piece):
     piece.sort(reverse=True)
@@ -67,23 +87,3 @@ for _ in range(n):
 alice, bob = falling_apart(pieces)
 print(alice, bob)
 '''
-
-def falling_apart(pieces):
-    pieces.sort(reverse=True)
-    alice = 0
-    bob = 0
-
-    for i, value in enumerate(pieces):
-        if i % 2 == 0:
-            alice += value
-        else:
-            bob += value
-
-    return alice, bob
-
-n = int(input())
-pieces = list(map(int, input().split()))
-assert len(pieces) == n
-
-alice, bob = falling_apart(pieces)
-print(alice, bob)
