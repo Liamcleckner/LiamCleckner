@@ -57,7 +57,11 @@ def hasUpperCase(phrase):
 
 def hasDigit(phrase):
     # FIXME1: return True if phrase has at least 1 digit, false otherwise
-    pass
+    digits = ''.join([character for character in phrase if character.isdigit()])
+    if digits:
+        return(True)
+    else:
+        pass
 
 
 def hasSymbol(phrase):
