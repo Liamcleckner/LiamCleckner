@@ -67,7 +67,7 @@ def hasDigit(phrase):
 def hasSymbol(phrase):
     # FIXME2: return True if phrase has at least one of these symbols: ~!@#$%
     # return False otherwise
-    symbol = ''.join([character for character in phrase if character.issymbol()])
+    symbol = ''.join([character for character in phrase if character == "!" or"@" or"#" or"$" or"%"])
     if symbol:
         return(True)
     else:
