@@ -67,11 +67,12 @@ def hasDigit(phrase):
 def hasSymbol(phrase):
     # FIXED: return True if phrase has at least one of these symbols: ~!@#$%
     # return False otherwise
-    symbol = ''.join([character for character in phrase if character == "!" or"@" or"#" or"$" or"%"])
-    if symbol:
-        return(True)
-    else:
-        return(False)
+    symbols = "~!@#$%"
+    for character in phrase:
+        if character in symbols:
+            return(True)
+        else:
+            return(False)
 
 
 def main():
