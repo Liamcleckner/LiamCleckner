@@ -1,9 +1,9 @@
 """
 Lab - Palindrom String Lab - Extra Credit
-By: FIXME1 (5 points)
+By: Liam Cleckner #FIXED (5 points)
 
 CSCI 110
-Date: FIXME2 (5 points)
+Date: 11/20/2025 #FIXED (5 points)
 
 Program prompts user to enter a string and tells whether the given string is palindrome or not.
 E.g., mom is a palindrome. Car is not a palindrome.

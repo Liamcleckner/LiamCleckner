@@ -1,10 +1,10 @@
 
 """
 Lab - String
-By: FIXME0
+By: Liam Cleckner #FIXED
 
 CSCI 110
-Date: FIXME0
+Date: 11/20/2025 #FIXED
 
 Program prompts user to enter a phrase and tells the user various properties about the phrase.
 """
