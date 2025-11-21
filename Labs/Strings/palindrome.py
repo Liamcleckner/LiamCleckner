@@ -54,6 +54,7 @@ def isPalindrome(phrase):
     # 4. else, continue to compare all the corresponding characters and if they all match,
     #       return True
     # FIXME3: Convert the above algorithm to Python code (60 points)
+    
     return True
 
 def test():
@@ -80,6 +81,10 @@ def main():
 
         # FIXME4 (10 points)
         # Call isPalindrome function and print whether phrase is palindrome or not.
+        if isPalindrome(phrase):
+            print("{} is a palindrome!")
+        else:
+            print("{} is not a palindrome.")
 
         # FIXME5 (20 points)
         # If the user no longer wants to use the program, break the loop!
