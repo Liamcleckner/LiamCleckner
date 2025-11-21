@@ -178,7 +178,18 @@ ________________________________________________________________________________
 | --- | --- |
 | Name: | Loops |
 | Description: | Loop a thing that makes squares and triangles when given a height |
-| Due Date: 10/20/25 |  |
+| Due Date: | 10/20/25 |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Loops/loops.py |
 | Notes: | Looped shapes |
+
+## Lab #10 
+| Name | Value |
+| --- | --- |
+| Name: | Stringlab |
+| Description: | Checks an input for different characteristics |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Strings/stringlab.py |
+| Notes: | Checked that string |
+

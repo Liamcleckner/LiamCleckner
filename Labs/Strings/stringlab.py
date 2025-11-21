@@ -61,17 +61,17 @@ def hasDigit(phrase):
     if digits:
         return(True)
     else:
-        pass
+        return(False)
 
 
 def hasSymbol(phrase):
-    # FIXME2: return True if phrase has at least one of these symbols: ~!@#$%
+    # FIXED: return True if phrase has at least one of these symbols: ~!@#$%
     # return False otherwise
     symbol = ''.join([character for character in phrase if character == "!" or"@" or"#" or"$" or"%"])
     if symbol:
         return(True)
     else:
-        pass
+        return(False)
 
 
 def main():
@@ -92,22 +92,27 @@ def main():
         else:
             print('{} does not have an upper case character.'.format(phrase))
 
-        # FIXME3
+        # FIXED
         # print if the phrase has a lower case character by calling the proper function
+        if hasLowerCase(phrase):
+            print('{} has a lower case character.'.format(phrase))
+        else:
+            print('{} does not have a lower case character.'.format(phrase))
+
+        # FIXED
+        # print if the phrase has a digit by calling the proper function
         if hasDigit(phrase):
             print("{} has a digit!".format(phrase))
         else:
             print("{} does not have a digit.".format(phrase))
+        
 
-        # FIXME4
-        # print if the phrase has a digit by calling the proper function
+        # FIXED
+        # print if the phrase has a symbol by calling the proper function
         if hasSymbol(phrase):
             print("{} has a symbol!".format(phrase))
         else:
             print("{} does not have a symbol.".format(phrase))
-
-        # FIXME5
-        # print if the phrase has a symbol by calling the proper function
 
         ans = input('Want to continue? [y/n]: ')
         ans = ans.lower()
