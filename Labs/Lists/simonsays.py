@@ -22,10 +22,16 @@ def main():
     """
     # step 1. read data
     N = int(input())
-    # FIXME 1 - Repeat steps 2-4 N times
-    # FIXME 2 - read the input string
-    # FIXME 3 - call answer function passing the string as an argument
-    # FIXME 4 - print the answer if it returns one, otherwise ignore it
+    # FIXED 1 - Repeat steps 2-4 N times
+    for _ in range (N):
+        simon = input().strip()
+
+        if simon.startswith("Simon says"):
+            print(simon[len("Simon says"):].strip())
+
+    # FIXED 2 - read the input string
+    # FIXED 3 - call answer function passing the string as an argument
+    # FIXED 4 - print the answer if it returns one, otherwise ignore it
 
 
 def valid_command(command: str) -> bool:
