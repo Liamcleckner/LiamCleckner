@@ -193,7 +193,7 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Strings/stringlab.py |
 | Notes: | Checked that string |
 
-## Lab #10 
+## Lab #11 
 | Name | Value |
 | --- | --- |
 | Name: | palindrome |
