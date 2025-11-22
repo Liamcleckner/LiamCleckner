@@ -193,3 +193,12 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Strings/stringlab.py |
 | Notes: | Checked that string |
 
+## Lab #10 
+| Name | Value |
+| --- | --- |
+| Name: | palindrome |
+| Description: | Checks if an input is a palindrom |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Strings/palindrome.py |
+| Notes: | Checked that string |
