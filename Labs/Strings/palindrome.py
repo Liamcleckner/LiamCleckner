@@ -53,6 +53,7 @@ def isPalindrome(phrase):
     # 3. if a single pair do NOT match, phrase is not palindrome, return False
     # 4. else, continue to compare all the corresponding characters and if they all match,
     #       return True
+    
     # FIXME3: Convert the above algorithm to Python code (60 points)
     
     return True

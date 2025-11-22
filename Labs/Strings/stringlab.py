@@ -63,7 +63,6 @@ def hasDigit(phrase):
     else:
         return(False)
 
-#FIXXFIXXIFIXXFIXXFIXXFIXXFIXXFIXXFIXXFIXX\|/\|/\|/\|/\|/\|/\|/
 def hasSymbol(phrase):
     # FIXED: return True if phrase has at least one of these symbols: ~!@#$%
     # return False otherwise
