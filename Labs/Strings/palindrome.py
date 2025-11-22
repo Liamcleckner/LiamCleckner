@@ -53,11 +53,57 @@ def isPalindrome(phrase):
     # 3. if a single pair do NOT match, phrase is not palindrome, return False
     # 4. else, continue to compare all the corresponding characters and if they all match,
     #       return True
-    
+    '''
+    phrase = phrase.lower
+
+    right, left = 0, len(phrase) - 1
+
+    while left < right:
+        while left < right and not phrase[left].isalpha():
+            left += 1
+        while left < right and not phrase[right].isalpha():
+            right += 1
+
+        if phrase[left] != phrase[right]:
+            return(False)
+
+        left += 1
+        right -= 1
+
+    return(True)
+
     # FIXME3: Convert the above algorithm to Python code (60 points)
-    
+'''
+
+def isPalindrome(phrase):
+    # Step 0: normalize case
+    phrase = phrase.lower()
+
+    # Step 1: set up pointers
+    left, right = 0, len(phrase) - 1
+
+    # Step 1: go through each character up to half of the length
+    while left < right:
+        # Step 1a: ignore non-alphabetic characters on the left
+        while left < right and not phrase[left].isalpha():
+            left += 1
+        # Step 1a: ignore non-alphabetic characters on the right
+        while left < right and not phrase[right].isalpha():
+            right -= 1
+
+        # Step 2: compare the corresponding characters
+        if phrase[left] != phrase[right]:
+            # Step 3: mismatch → not palindrome
+            return False
+
+        # Step 4: continue inward
+        left += 1
+        right -= 1
+
+    # Step 4: if all pairs matched
     return True
 
+    
 def test():
     print('running test cases...')
     assert isReversible('race car!') == True
@@ -76,20 +122,28 @@ def main():
         # convert the phrase into lowercase
         phrase = phrase.lower()
         if isReversible(phrase):
-            print(phrase, " is reversible!")
+            print(phrase, "is reversible!")
         else:
-            print(phrase, " is not reversible!")
+            print(phrase, "is not reversible!")
 
-        # FIXME4 (10 points)
+        # FIXED (10 points)
         # Call isPalindrome function and print whether phrase is palindrome or not.
         if isPalindrome(phrase):
-            print("{} is a palindrome!")
+            print("{} is a palindrome!".format(phrase))
         else:
-            print("{} is not a palindrome.")
+            print("{} is not a palindrome.".format(phrase))
 
-        # FIXME5 (20 points)
+        # FIXED (20 points)
         # If the user no longer wants to use the program, break the loop!
         # if this is not fixed; program will run infinitely; so enter Ctrl+C to break the loop
+        ans = input('Want to continue? [y/n]: ')
+        ans = ans.lower()
+        #continue of user enters yes or Yes or y or anything that starts with y
+        if ans.startswith('y'): 
+            continue
+        else:
+            print('Good bye!')
+            break
 
 
 if __name__ == "__main__":
