@@ -28,7 +28,7 @@ def test_sort_cups_3() -> None:
     """
     cups = {5: 'red', 10: 'blue'}
     sorted_cups = sort_cups(cups)
-    expected = ['blue', 'red']
+    expected = ['red', 'blue']
     assert sorted_cups == expected
 
 # FIXME8 : add a unit test function
@@ -46,7 +46,7 @@ def test_sort_cups_5() -> None:
     """
     cups = {10: 'blue', 5: 'red'}
     sorted_cups = sort_cups(cups)
-    expected = ['blue', 'red']
+    expected = ['red', 'blue']
     assert sorted_cups == expected
 
 # FIXME10 : add a unit test function
