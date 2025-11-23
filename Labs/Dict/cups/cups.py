@@ -35,7 +35,9 @@ def sort_cups(cups: dict) -> list:
     # sort the cups based on keys and get a sorted dict
     sorted_keys = sorted(cups)
     ans = []
-    # FIXME4: traverse through sorted_keys and add the corresponding value to ans
+    # FIXED4: traverse through sorted_keys and add the corresponding value to ans
+    for r in (sorted_keys):
+        ans.append(cups[r])
     return ans
 
 
@@ -44,19 +46,29 @@ def main() -> None:
     """
     # read the first line
     n = int(sys.stdin.readline().strip())
-    # FIXME1: initialize cups as an empty dictionary
-    cups: Dict[int, str] = None
+    # FIXED1: initialize cups as an empty dictionary
+    cups: Dict[int, str] = {}
     for _ in range(n):
-        # FIXME2 : read each line and split it into two variables
-        # FIXME3 : add radius (int) as a key and color as a value to cups
+        # FIXED2 : read each line and split it into two variables
+        line = sys.stdin.readline().strip().split()
+        first, second = line[0], line[1]
+        # FIXED3 : add radius (int) as a key and color as a value to cups
+        if first.isdigit():
+            diameter = int(first)
+            radius = diameter/2
+            color = second
+        else:
+            color = first
+            radius = int(second)
         # Note. if the first variable is number, it must be diameter.
         # convert it into a radius before adding it to the cups.
-        pass
+        cups[radius] = color
 
     ans = sort_cups(cups)
     print(f'{ans=}', file=sys.stderr)
-    # FIXME5: print the colors in ans one line at a time
-
+    # FIXED5: print the colors in ans one line at a time
+    for c in ans:
+        print(c)
 
 if __name__ == '__main__':
     main()
