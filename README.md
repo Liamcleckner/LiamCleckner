@@ -9,40 +9,31 @@
 | Repository | https://github.com/Liamcleckner/CS0-lcleckner |
 _______________________________________________________________________________________________________________
 # Assignments
+
 ## Homework #1
 | Name | Value |
 | --- | --- |
-| Name: | FIXME |
-| Description: | FIXME |
-| Due Date: | FIXME |
-| Status: | FIXME (In Progress, Finished, Not Started, etc...) |
-| Location: | <provide github link to assignment> |
-| Notes: | In Progress|
-
-## Homework #1 Triangle
-| Name | Value |
-| --- | --- |
-| Name: | Liam Cleckner |
+| Name: | Triangle |
 | Description: | Triangle perimeter and area calculator |
 | Due Date: | |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/Assignments/Stdio/Math/Triangle/Triangle.py |
 | Notes: | In Progress|
 
-## Homework #2 R2
+## Homework #2
 | Name | Value |
 | --- | --- |
-| Name: | Liam Cleckner |
+| Name: | R2 |
 | Description: | Kattis problem in github |
 | Due Date: |  |
 | Status: | Finished |
 | Location: |https://github.com/Liamcleckner/LiamCleckner/tree/main/assignments/Assignments/Stdio/Math/r2 |
 | Notes: | In Progress|
 
-## Homework #3 Functions
+## Homework #3
 | Name | Value |
 | --- | --- |
-| Name: | Liam Cleckner |
+| Name: | Functions |
 | Description: | Math involving 2 numbers |
 | Due Date: |  |
 | Status: | Finished |
@@ -50,45 +41,55 @@ ________________________________________________________________________________
 | Notes: | In Progress|
 
 
-## Homework #4 Conditionals
+## Homework #4
 | Name | Value |
 | --- | --- |
-| Name: | Liam Cleckner |
+| Name: | Conditionals |
 | Description: | Various calculations of 5 numbers selected by the user |
 | Due Date: | 10/13/25 |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/Conditional/Condtional.py |
 | Notes: | In Progress|
 
-## Homework #5 Loops
+## Homework #5
 | Name | Value |
 | --- | --- |
-| Name: | Liam Cleckner |
+| Name: | Loops |
 | Description: | Number guessing game that loops |
 | Due Date: | 10/20/25 |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/guessNumber/loop.py |
 | Notes: | Number guess |
 
-## Homework #6 Avion
+## Homework #6
 | Name | Value |
 | --- | --- |
-| Name: | Liam Cleckner |
+| Name: | Avion |
 | Description: | Checks lines of text for "FBI" |
 | Due Date: | |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/Avion/avion.py |
 | Notes: | Found spy |
 
-## Homework #7 Falling Apart
+## Homework #7
 | Name | Value |
 | --- | --- |
-| Name: | Liam Cleckner |
-| Description: | Add em up |
+| Name: | Falling Apart |
+| Description: | Adds up integers between two people |
 | Due Date: | |
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/fallingapart/fallingapart.py |
 | Notes: | Added em up |
+
+## Homework #8
+| Name | Value |
+| --- | --- |
+| Name: | A new alphabet |
+| Description: | Use a dictionary to convert letters from an inputed string |
+| Due Date: | 11/22/2025 |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/assignments/anewalphabet/newalphabet.py |
+| Notes: | Converted letters |
 
 _______________________________________________________________________________________________________________
 # Labs
