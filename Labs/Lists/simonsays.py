@@ -22,16 +22,15 @@ def main():
     """
     # step 1. read data
     N = int(input())
-    # FIXED 1 - Repeat steps 2-4 N times
-    for _ in range (N):
-        simon = input().strip()
-
-        if simon.startswith("Simon says"):
-            print(simon[len("Simon says"):].strip())
-
-    # FIXED 2 - read the input string
-    # FIXED 3 - call answer function passing the string as an argument
-    # FIXED 4 - print the answer if it returns one, otherwise ignore it
+    # FIXME 1 - Repeat steps 2-4 N times
+    for _ in range(N):
+        # FIXME 2 - read the input string
+        words = input().strip()
+        # FIXME 3 - call answer function passing the string as an argument
+        result = answer(words)
+        # FIXME 4 - print the answer if it returns one, otherwise ignore it
+        if result:
+            print(result)
 
 
 def valid_command(command: str) -> bool:
@@ -45,8 +44,7 @@ def valid_command(command: str) -> bool:
     """
     # FIXME 5: if the command begins with 'Simon says', return True
     # otherwise, return False
-    ans = "FIXME"
-    return ans
+    return command.startswith("Simon says")
 
 
 def answer(command: str) -> Union[str, None]:
@@ -60,6 +58,8 @@ def answer(command: str) -> Union[str, None]:
     """
     valid = valid_command(command)
     # FIXME 6: if valid is True, return the rest of the string after 'Simon says', None otherwise
+    if valid:
+        return command[len("Simon says"):].strip()
     return None
 
 
