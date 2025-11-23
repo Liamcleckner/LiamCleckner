@@ -232,3 +232,13 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Dict/dictLab.py |
 | Notes: | States in dictionary |
+
+## Lab #15
+| Name | Value |
+| --- | --- |
+| Name: | cup |
+| Description: | sorts cups based on radius |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Dict/cups/cups.py |
+| Notes: | measured cups |
