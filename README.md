@@ -222,3 +222,13 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Lists/7a.py |
 | Notes: | Looked at integers |
+
+## Lab #14 
+| Name | Value |
+| --- | --- |
+| Name: | Dict lab |
+| Description: | Dictionary with states and give answers based on that |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Dict/dictLab.py |
+| Notes: | States in dictionary |
