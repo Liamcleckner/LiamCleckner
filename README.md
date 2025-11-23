@@ -202,3 +202,13 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Strings/palindrome.py |
 | Notes: | Checked that string |
+
+## Lab #12 
+| Name | Value |
+| --- | --- |
+| Name: | Simon says |
+| Description: | Checks if an input starts with simon says and repeats the rest of the string. |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Lists/simonsays.py |
+| Notes: | Simon said |
