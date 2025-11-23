@@ -242,3 +242,13 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Dict/cups/cups.py |
 | Notes: | measured cups |
+
+## Lab #16
+| Name | Value |
+| --- | --- |
+| Name: | fileio |
+| Description: | directed inputs and outputs from files |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/fileio/fileio.py |
+| Notes: | Filed it |
