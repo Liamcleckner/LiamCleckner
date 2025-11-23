@@ -25,19 +25,23 @@ def readData():
     # and store it into intList list
     # close the file
     # return the intList
+    fileName = input("Enter the name of the input file: ")
+    with open(fileName, "r") as infile:
+        for line in infile:
+            intList.append(int(line.strip()))
     return intList
 
 
 def sortListInAscendingOrder(lstInts):
     # FIXME2
     # sort lstInts list in ascending order
-    pass
+    lstInts.sort()
 
 
 def sortListInDescendingOrder(lstInts):
     # FIXME3
     # sort lstInts in descending order
-    pass
+    lstInts.sort(reverse = True)
 
 
 def printList(printFile, lstInts):
@@ -45,7 +49,9 @@ def printList(printFile, lstInts):
         # FIXME4
         # write each value one line at a time to file
         # handled by printFile object.
-        pass
+        
+        printFile.write(str(i) + "\n")
+
     printFile.write('\n')
 
 
@@ -63,15 +69,20 @@ def main():
 
     # FIXME5
     # Call sortListInDescendingOrder function
+    sortListInDescendingOrder(integers)
 
     # FIXME6
     # Write the sorted list in descending order to the output file
+    printFile.write("Numbers sorted in descending order:\n")
+    printList(printFile, integers)
 
     # FIXME7
     # Print the largest number to the output file
+    printFile.write("Largest number: " + str(max(integers)) + "\n")
 
     # FIXME8
     # Print the smallest number to the output file
+    printFile.write("Smallest number: " + str(min(integers)) + "\n")
 
     printFile.close()
     print('Done executing the program! Check the output file for results.')
@@ -79,3 +90,5 @@ def main():
 
 # FIXME9
 # Call main function if this module is run as the main module
+if __name__ == "__main__":
+    main()
