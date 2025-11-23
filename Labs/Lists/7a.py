@@ -20,6 +20,7 @@ def getIntegers():
     while i < totalInts:
         num = int(input("Enter an integer: "))
         # FIXME add num into integers list
+        intList.append(num)
         i += 1
     return intList
 
@@ -29,8 +30,8 @@ def sortListInAscendingOrder(intList):
 
 
 def sortListInDescendingOrder(intList):
-    # FIXME3 (20 points)
-    pass
+    # FIXED3 (20 points)
+    intList.sort(reverse=True)
 
 
 def printList(intList):
@@ -49,20 +50,50 @@ def main():
     sortListInAscendingOrder(integers)
     print("Numbers in ascending order: ")
     printList(integers)
-    # FIXME4 (10 points)
+
+    # FIXED4 (10 points)
     # Call sortListInDescendingOrder function
-    # FIXME5 (10 points)
+
+
+    sortListInDescendingOrder(integers)
+    
+    # FIXED5 (10 points)
     # Print the sorted list in descending order
-    # FIXME6 (10 points)
+
+    print("Numbers in descending order:")
+    print(integers)
+
+    # FIXED6 (10 points)
     # Print the largest number
-    # FIXME7 (10 points)
+
+    large = max(integers)
+    print("Largest number:")
+    print(large)
+
+    # FIXED7 (10 points)
     # Print the smallest number
-    # FIXME8 (10 points)
+
+    small = min(integers)
+    print("Smallest number:")
+    print(small)
+
+    # FIXED8 (10 points)
     # Find and print the index of the smallest number
-    # FIXME9 (10 points)
+
+    print("Index of the smallest number:")
+    print(integers.index(small))
+
+    # FIXED9 (10 points)
     # Print the index of the largest number
 
+    print("index of largest number:")
+    print(integers.index(large))
 
-# FIXME10 (20 points)
+
+# FIXED10 (20 points)
 # Call main function if this file is run as the main module
-print('call main() function to see partial outputs of the program...')
+
+if __name__ == "__main__":
+    main()
+
+#print('call main() function to see partial outputs of the program...')
