@@ -212,3 +212,13 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Lists/simonsays.py |
 | Notes: | Simon said |
+
+## Lab #13 
+| Name | Value |
+| --- | --- |
+| Name: | 7a |
+| Description: | input integers and orders them |
+| Due Date: |  |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/Lists/7a.py |
+| Notes: | Looked at integers |
