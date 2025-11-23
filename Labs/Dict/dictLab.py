@@ -2,10 +2,10 @@
     CS110 Lab
     Dictionary Lab
 
-    Updated By: FIXME1
+    Updated By: Liam Cleckner
 
     CSCI 110
-    Date: FIXME2
+    Date: 11/22/2025
 
     Working with Python dictionary (dict) data structure.
 """
@@ -13,19 +13,111 @@ import os
 
 # create a mapping of state names to their codes using a dictionary
 states = {
-    'Oregon': 'OR',
-    'Florida': 'FL',
+    'Alabama': 'AL',
+    'Alaska': 'AK',
+    'Arizona': 'AZ',
+    'Arkansas': 'AR',
     'California': 'CA',
+    'Colorado': 'CO',
+    'Connecticut': 'CT',
+    'Delaware': 'DE',
+    'Florida': 'FL',
+    'Georgia': 'GA',
+    'Hawaii': 'HI',
+    'Idaho': 'ID',
+    'Illinois': 'IL',
+    'Indiana': 'IN',
+    'Iowa': 'IA',
+    'Kansas': 'KS',
+    'Kentucky': 'KY',
+    'Louisiana': 'LA',
+    'Maine': 'ME',
+    'Maryland': 'MD',
+    'Massachusetts': 'MA',
+    'Michigan': 'MI',
+    'Minnesota': 'MN',
+    'Mississippi': 'MS',
+    'Missouri': 'MO',
+    'Montana': 'MT',
+    'Nebraska': 'NE',
+    'Nevada': 'NV',
+    'New Hampshire': 'NH',
+    'New Jersey': 'NJ',
+    'New Mexico': 'NM',
     'New York': 'NY',
-    'Michigan': 'MI'
+    'North Carolina': 'NC',
+    'North Dakota': 'ND',
+    'Ohio': 'OH',
+    'Oklahoma': 'OK',
+    'Oregon': 'OR',
+    'Pennsylvania': 'PA',
+    'Rhode Island': 'RI',
+    'South Carolina': 'SC',
+    'South Dakota': 'SD',
+    'Tennessee': 'TN',
+    'Texas': 'TX',
+    'Utah': 'UT',
+    'Vermont': 'VT',
+    'Virginia': 'VA',
+    'Washington': 'WA',
+    'West Virginia': 'WV',
+    'Wisconsin': 'WI',
+    'Wyoming': 'WY'
     # FIXME3 – add codes for the rest of the states
 }
 
 # create a mapping of states to their capital state using a dictionary
 capitalCity = {
+    'AL': 'Montgomery',
+    'AK': 'Juneau',
+    'AZ': 'Phoenix',
+    'AR': 'Little Rock',
     'CA': 'Sacramento',
+    'CO': 'Denver',
+    'CT': 'Hartford',
+    'DE': 'Dover',
+    'FL': 'Tallahassee',
+    'GA': 'Atlanta',
+    'HI': 'Honolulu',
+    'ID': 'Boise',
+    'IL': 'Springfield',
+    'IN': 'Indianapolis',
+    'IA': 'Des Moines',
+    'KS': 'Topeka',
+    'KY': 'Frankfort',
+    'LA': 'Baton Rouge',
+    'ME': 'Augusta',
+    'MD': 'Annapolis',
+    'MA': 'Boston',
     'MI': 'Lansing',
-    'FL': 'Tallahassee'
+    'MN': 'Saint Paul',
+    'MS': 'Jackson',
+    'MO': 'Jefferson City',
+    'MT': 'Helena',
+    'NE': 'Lincoln',
+    'NV': 'Carson City',
+    'NH': 'Concord',
+    'NJ': 'Trenton',
+    'NM': 'Santa Fe',
+    'NY': 'Albany',
+    'NC': 'Raleigh',
+    'ND': 'Bismarck',
+    'OH': 'Columbus',
+    'OK': 'Oklahoma City',
+    'OR': 'Salem',
+    'PA': 'Harrisburg',
+    'RI': 'Providence',
+    'SC': 'Columbia',
+    'SD': 'Pierre',
+    'TN': 'Nashville',
+    'TX': 'Austin',
+    'UT': 'Salt Lake City',
+    'VT': 'Montpelier',
+    'VA': 'Richmond',
+    'WA': 'Olympia',
+    'WV': 'Charleston',
+    'WI': 'Madison',
+    'WY': 'Cheyenne'
 }
 
 # add some more entires to capitalCity dictionary
@@ -57,19 +149,30 @@ def main():
             break
 
         if option == '1':
-            state = input('Enter a US state name: ')
+            state = input('Enter a US state name: ').strip().capitalize()
             if state in states:  # check if state is in states dict
                 print('Code for {} is {}.'.format(state, states[state]))
             else:
                 print("Sorry! The US state name '{}' NOT found!".format(state))
         elif option == '2':
             # FIXME5 - complete menu option 2
-            print('FIXME')
+            code = input('Enter a US state code: ').strip().upper()
+            if code in capitalCity:
+                print("Capital city for {} is {}".format(code, capitalCity[code]))
+            else:
+                print("Sorry! The US state code '{}' NOT found!".format[code])
 
         # FIXME6 - complete menu option 3
-
+        elif option == '3':
+            state = input('Enter a US state name:').strip().capitalize()
+            if state in states:
+                print("Capital city for {} is {}".format(state, states[state]))
+            else:
+                print("Sorry! The US state name {} NOT found!".format(state))
         # FIXME7 - handle the case where user enters invalid menu option
-        print('Enter to continue...')
+        else:
+            print("Invalid option. Please choose 1, 2, 3, or 4.")
+        print('Press Enter to continue...')
         input()
 
 

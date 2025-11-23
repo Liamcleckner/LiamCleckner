@@ -1,8 +1,8 @@
 """
 Dictionary and Unittest Lab - B
-Updated By: FIXME
+Updated By: Liam Cleckner
 CSCI 110 Lab
-Date: FIXME
+Date: 11/22/2025
 
 Kattis problem - Stacking Cups - https://open.kattis.com/problems/cups  
 
