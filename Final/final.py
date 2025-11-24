@@ -5,10 +5,9 @@ CSCI 110
 Date: 11/22/2025
 '''
 
-import os
 import random
 
-gallows:  {
+gallows = {
     '''
       _______
      |       |
@@ -85,6 +84,20 @@ gallows:  {
 def choose_word():
     with open("words.txt") as f:
         word = random.choice(f.read().splitlines())
-    print("Random word:", word)
+    # print("Random word:", word)
 
-choose_word()
+def ascii(wrong_guesses):
+    print(gallows[wrong_guesses])
+
+def round():
+    wrong_guesses = 0
+    
+#def solved():
+
+
+def main():
+    choose_word()
+    ascii()
+
+if __name__ == "__main__":
+    main()
