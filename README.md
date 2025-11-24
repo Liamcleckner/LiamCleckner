@@ -253,3 +253,13 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/fileio/fileio.py |
 | Notes: | Filed it |
+
+## Homework #17
+| Name | Value |
+| --- | --- |
+| Name: | OOP |
+| Description: | Finds prints radius, area and circumference of a circle given radius |
+| Due Date: | 11/22/2025 |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/OOP/oop.py |
+| Notes: | Found Circle |
