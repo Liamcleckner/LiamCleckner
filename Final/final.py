@@ -97,6 +97,7 @@ def round():
 
 def main():
     choose_word()
+    round()
     ascii()
 
 if __name__ == "__main__":
