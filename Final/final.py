@@ -52,7 +52,7 @@ gallows = [
       _______
      |       |
      O       |
-    /|\\     |
+    /|\\      |
              |
              |
              |
@@ -122,9 +122,9 @@ def letter_input(guessed):
     while True:
         letter_guess = input("(To leave, type quit) Guess a letter: ").strip().lower()
         if letter_guess == "quit":
-            return "quit"
+            return letter_guess
         if letter_guess in guessed:
-            print("Already guessed that letter!")
+            print("Already guessed that letter.")
             continue
         if len(letter_guess) != 1 or not letter_guess.isalpha():
             print("Please enter one letter.")
