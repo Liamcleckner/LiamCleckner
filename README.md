@@ -6,7 +6,7 @@
 | Instructor: | Corin Chepko |
 | Mav Username: | lrcleckner |
 | GitHub Username: | Liamcleckner |
-| Repository | https://github.com/Liamcleckner/CS0-lcleckner |
+| Repository | https://github.com/Liamcleckner/LiamCleckner |
 _______________________________________________________________________________________________________________
 # Assignments
 
@@ -263,3 +263,13 @@ ________________________________________________________________________________
 | Status: | Finished |
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/OOP/oop.py |
 | Notes: | Found Circle |
+
+# FINAL
+| Name | Value |
+| --- | --- |
+| Name: | Hangman |
+| Description: | Hangman game |
+| Due Date: | 12/5/2025 |
+| Status: | Finished |
+| Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Final/final.py |
+| Notes: | Finale on that one |
