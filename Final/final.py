@@ -98,16 +98,21 @@ def play_round(word):
 
         if word_solved(word, guessed):
             print("You won! \nSecret word: ", word)
+            return
         
         if wrong_guesses >= max_tries:
             print("Game over :( \nSecret word:", word)
+            return
 
         letter = letter_input(guessed)
         if letter == "quit":
             print("Game over. \nThe word was", word)
+            return
+    
         if letter in word:
             guessed.add(letter)
             print("Good guess.", letter)
+
         else:
             guessed.add(letter)
             wrong_guesses += 1
@@ -117,18 +122,17 @@ def letter_input(guessed):
     while True:
         letter_guess = input("(To leave, type quit) Guess a letter: ").strip().lower()
         if letter_guess == "quit":
-            return letter_guess
+            return "quit"
         if letter_guess in guessed:
             print("Already guessed that letter!")
             continue
         if len(letter_guess) != 1 or not letter_guess.isalpha():
-            print("Please etner one letter.")
+            print("Please enter one letter.")
             continue
         return letter_guess
             
 def word_solved(word, guessed):
     return all(letter in guessed for letter in word)
-
 
 def ascii(word, guessed, wrong_guesses):
     print(gallows[wrong_guesses])
