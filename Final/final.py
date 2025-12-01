@@ -3,9 +3,26 @@ Final Project: Hangman
 By: Liam Cleckner
 CSCI 110
 Date: 11/22/2025
+Algorithm steps:
+- Pick a random word from words.txt
+- Set wrong guesses = 0, guessed letters = empty set
+- Loop round
+    Show ASCII gallows, masked word, guessed letters, and tries left
+- Check win/lose
+    If all letters guessed you win
+    If wrong guesses >= max you lose
+- Get input from player
+- Update 
+    If letter in word add to guessed 
+    Else add to guessed and increase wrong guesses
+- Repeat until win, lose, or quit
+- Ask to play again
 '''
 
 import random
+
+
+#acii art
 
 gallows = [
     '''
@@ -83,12 +100,17 @@ gallows = [
 
 max_tries = len(gallows) - 1
 
+#Random word from words.txt
 def choose_word():
     with open("words.txt") as f:
         word = random.choice(f.read().splitlines())
     return word.lower()
     # print("Random word:", word)
 
+#Plays one round
+#Each incorrect guess adds one to wrong_guesses
+#Each correct guess is kept
+#Each guess put in the word bank
 def play_round(word):
     wrong_guesses = 0
     guessed = set()
@@ -118,6 +140,7 @@ def play_round(word):
             wrong_guesses += 1
             print("Bad guess.", letter)
 
+#Checks for a valid single lietter input
 def letter_input(guessed):
     while True:
         letter_guess = input("(To leave, type quit) Guess a letter: ").strip().lower()
@@ -130,10 +153,12 @@ def letter_input(guessed):
             print("Please enter one letter.")
             continue
         return letter_guess
-            
+
+#Checks if word is solved     
 def word_solved(word, guessed):
     return all(letter in guessed for letter in word)
 
+#Display
 def ascii(word, guessed, wrong_guesses):
     print(gallows[wrong_guesses])
     mask = "".join(letter if letter in guessed else "_" for letter in word)
@@ -141,6 +166,7 @@ def ascii(word, guessed, wrong_guesses):
     print("Guessed:", " ".join(sorted(guessed)) if guessed else "(none)")
     print("Tries left:", max_tries - wrong_guesses)
 
+#Asks to play again
 def play_again():
     while True:
         ans = input("Play again? (y/n)").strip().lower()[0]
