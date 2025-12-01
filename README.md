@@ -254,7 +254,7 @@ ________________________________________________________________________________
 | Location: | https://github.com/Liamcleckner/LiamCleckner/blob/main/Labs/fileio/fileio.py |
 | Notes: | Filed it |
 
-## Homework #17
+## Lab #17
 | Name | Value |
 | --- | --- |
 | Name: | OOP |
